@@ -42,3 +42,16 @@ Alumno:
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+numero_1 = int(input("Ingrese su numero : "))
+numero_2 = int(input("Ingrese su numero : "))
+diferencia = numero_1 - numero_2
+res_1= 0
+
+if diferencia > 0:
+  res_1 = 1
+elif diferencia < 0:
+  res_1 = 2
+else: res_1 = 3
+
+print(res_1)
+

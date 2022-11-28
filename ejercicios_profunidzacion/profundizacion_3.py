@@ -64,3 +64,21 @@ pregunta_5 = "¿Cuál es la capital de Venezuela?"
 respuesta_5 = "caracas"
 
 # Empezar aquí la resolución del ejercicio
+respuesta1 = str(input("Ingrese su respuesta: "))
+respuesta2 = str(input("Ingrese su respuesta: "))
+respuesta3 = str(input("Ingrese su respuesta: "))
+respuesta4 = str(input("Ingrese su respuesta: "))
+respuesta5 = str(input("Ingrese su respuesta: "))
+
+if respuesta1 == respuesta_1:
+  puntaje += 10
+if respuesta2 == respuesta_2:
+  puntaje += 10
+if respuesta3 == respuesta_3:
+  puntaje += 10
+if respuesta4 == respuesta_4:
+  puntaje += 10
+if respuesta5 == respuesta_5:
+  puntaje += 10
+
+print(f"Su puntaje fue de {puntaje}")
